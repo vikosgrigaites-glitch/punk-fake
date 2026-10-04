@@ -1,0 +1,7 @@
+gunicorn
+flask
+python-telegram-bot
+solders
+httpx
+aiosqlite
+python-dotenv
