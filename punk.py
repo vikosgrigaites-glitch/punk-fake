@@ -2032,10 +2032,10 @@ async def handle_admin_text_and_photos(update: Update, context: ContextTypes.DEF
 
 def main_menu_keyboard(basket_count: int):
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🛍 Pradeti!", callback_data='menu_shop')],
+        [InlineKeyboardButton("🛍 Parduotuvė", callback_data='menu_shop')],
         [
             InlineKeyboardButton(f"👤 Profilis / Krepšelis ({basket_count})", callback_data='menu_profile'),
-            InlineKeyboardButton("💳 top up", callback_data='menu_topup')
+            InlineKeyboardButton("💳 Papildyti", callback_data='menu_topup')
         ],
         [
             InlineKeyboardButton("💬 Atsiliepimai", url="https://t.me/punkreviews666"),
